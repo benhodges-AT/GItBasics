@@ -119,11 +119,25 @@ def circle_perimeter(radius):
     return perimeter
 
 """
+""" 
 def print_even_numbers(start, stop):
     if start % 2 != 0: 
         start += 1
     for i in range(start, stop, 2):
             print(i)
         
+"""
 
+""" total = 0 
+for i in range(0, 1000):
+    if i % 3 == 0 or i % 5 == 0:
+        total += i
+print(total)
+"""
+celsius = 0 
+def fahrenheit_to_celsius(temp):
+    celsius = temp - 32 / 1.8
+
+
+fahrenheit_to_celsius(200)
 
