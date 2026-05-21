@@ -134,7 +134,8 @@ for i in range(0, 1000):
         total += i
 print(total)
 """
-""" celsius = 0 
+"""
+celsius = 0 
 def fahrenheit_to_celsius(temp):
     celsius = temp - 32 / 1.8
     return celsius
@@ -144,7 +145,6 @@ fahrenheit_to_celsius(200)
 
 import string 
 
-import string 
 
 def num_pairs():
     for first in string.ascii_lowercase:
@@ -152,6 +152,18 @@ def num_pairs():
             print(first + second)  
             
 num_pairs()
+
+
+
+
+def longest_word(text):
+    largest = ""
+    for i in (text.split()):
+        if len(i) > len(largest):
+            largest = i 
+    print(largest)
+
+longest_word("Monty Python and the Holy Grail")
 
 
 FLAVORS = [
@@ -163,15 +175,16 @@ FLAVORS = [
     "Strawberry",
     "Vanilla",
 ]
-def sorbet_menu():
-    for f1 in FLAVORS:
-        for f2 in FLAVORS:
-            if f1 != f2 or f2 != f1:
-                print(f1 + ", " + f2)
-                
-sorbet_menu() """
 
-x = ('apple', 'banana', 'cherry')
-y = enumerate(x) 
+for f1 in FLAVORS:
+    for f2 in FLAVORS:
+        if f1 < f2:
+            print(f"{f1}, {f2}")
 
-print(x)
+"""
+""" age = int(input())
+has_license = input() == "true"
+has_insurance = input() == "true"
+
+result = age >= 18 and has_insurance and has_license 
+print(result)"""
